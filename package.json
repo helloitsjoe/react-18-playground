@@ -1,0 +1,47 @@
+{
+  "name": "react-app-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/eslint-parser": "^7.15.0",
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.16.0",
+    "@testing-library/dom": "^8.1.0",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.1.9",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.22.0",
+    "eslint-config-helloitsjoe": "^2.0.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
+    "prettier": "^2.2.1",
+    "webpack": "^5.25.0",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-simple": "^1.7.3"
+  },
+  "dependencies": {
+    "jest-simple-config": "^0.4.0",
+    "prop-types": "^15.7.2",
+    "react": "^18.0.0-beta-c1220ebdd-20211123",
+    "react-dom": "^18.0.0-beta-c1220ebdd-20211123",
+    "react-is": "^18.0.0-beta-c1220ebdd-20211123",
+    "styled-components": "^5.3.3",
+    "styled-system": "^5.1.5"
+  }
+}
