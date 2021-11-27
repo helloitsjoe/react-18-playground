@@ -10,9 +10,11 @@ export const renderApp = res => {
 
   let didError = false;
   const { pipe, abort } = renderToPipeableStream(<App />, {
+    bootstrapScripts: ['/main.js'],
     onCompleteShell() {
       res.statusCode = didError ? 500 : 200;
       res.setHeader('Content-Type', 'text/html');
+      // console.log(`res:`, res);
       pipe(res);
     },
     onError(err) {

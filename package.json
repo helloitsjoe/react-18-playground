@@ -42,8 +42,8 @@
     "express": "^4.17.1",
     "jest-simple-config": "^0.4.0",
     "prop-types": "^15.7.2",
-    "react": "^18.0.0-beta-c1220ebdd-20211123",
-    "react-dom": "^18.0.0-beta-c1220ebdd-20211123",
+    "react": "^18.0.0-beta-0cc724c77-20211125",
+    "react-dom": "^18.0.0-beta-0cc724c77-20211125",
     "react-is": "^18.0.0-beta-c1220ebdd-20211123",
     "styled-components": "^5.3.3",
     "styled-system": "^5.1.5"
